@@ -79,9 +79,6 @@ Este sistema no es solo un simulador; es un **entrenador inteligente** que anali
 - **Flashcards**: Repaso visual y táctil.
 - **Perfil**: Historial de exámenes y "Zona de Peligro" para reiniciar progreso.
 
----
-
-## 📝 Licencia
 
 Este proyecto está bajo la Licencia MIT. ¡Siéntete libre de usarlo, mejorarlo y compartirlo!
 
