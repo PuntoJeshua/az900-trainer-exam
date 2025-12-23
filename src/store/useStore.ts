@@ -52,7 +52,7 @@ export const useStore = create<Store>()(
                     history: [result, ...state.progress.history]
                 }
             })),
-            answerQuestion: (questionId, optionId, correct, confidence) => set((state) => {
+            answerQuestion: (questionId, _optionId, correct, confidence) => set((state) => {
                 const newAnswered = {
                     ...state.progress.answeredQuestions,
                     [questionId]: {

@@ -13,7 +13,7 @@ export const questions: Question[] = [
         correctOptionIds: ['a'],
         domain: 'Conceptos de la nube',
         explanation: 'IaaS ofrece el mayor nivel de control sobre la infraestructura, incluyendo el sistema operativo y las aplicaciones. PaaS gestiona el SO por ti, y SaaS es software listo para usar.',
-        complexity: 'Basic',
+        complexity: 'Basico',
         keyword: 'control total',
         learnMoreUrl: 'https://learn.microsoft.com/es-es/azure/cloud-adoption-framework/migrate/azure-best-practices/iaas-paas-saas'
     },
@@ -29,7 +29,7 @@ export const questions: Question[] = [
         correctOptionIds: ['b'],
         domain: 'Servicios principales de Azure',
         explanation: 'Las zonas de disponibilidad son ubicaciones físicas separadas dentro de una misma región, diseñadas para proteger sus aplicaciones y datos de fallos en el centro de datos.',
-        complexity: 'Intermediate',
+        complexity: 'Intermedio',
         keyword: 'fallos de centro de datos'
     },
     {
@@ -44,7 +44,7 @@ export const questions: Question[] = [
         correctOptionIds: ['b'],
         domain: 'Seguridad, cumplimiento e identidad',
         explanation: 'Azure Active Directory (ahora Microsoft Entra ID) es el servicio de gestión de identidades y accesos basado en la nube de Microsoft.',
-        complexity: 'Basic',
+        complexity: 'Basico',
         keyword: 'gestionar identidades'
     },
     {
@@ -59,7 +59,7 @@ export const questions: Question[] = [
         correctOptionIds: ['b'],
         domain: 'Conceptos de la nube',
         explanation: 'El modelo de consumo de la nube se basa en OpEx (Gastos Operativos), donde pagas por lo que usas en lugar de invertir en infraestructura física por adelantado (CapEx).',
-        complexity: 'Basic',
+        complexity: 'Basico',
         keyword: 'OpEx'
     },
     {
@@ -74,7 +74,7 @@ export const questions: Question[] = [
         correctOptionIds: ['c'],
         domain: 'Servicios principales de Azure',
         explanation: 'Azure Functions es una solución "Serverless" (sin servidor) diseñada para ejecutar pequeños fragmentos de código en respuesta a eventos.',
-        complexity: 'Intermediate',
+        complexity: 'Intermedio',
         keyword: 'sin servidor'
     },
     {
@@ -89,7 +89,7 @@ export const questions: Question[] = [
         correctOptionIds: ['b'],
         domain: 'Servicios principales de Azure',
         explanation: 'Azure Monitor recopila, analiza y actúa sobre los datos de telemetría de sus entornos locales y en la nube.',
-        complexity: 'Intermediate',
+        complexity: 'Intermedio',
         keyword: 'monitorizar rendimiento'
     },
     {
@@ -102,7 +102,7 @@ export const questions: Question[] = [
         correctOptionIds: ['b'],
         domain: 'Seguridad, cumplimiento e identidad',
         explanation: 'Falso. En la nube pública, el proveedor (Microsoft) es responsable de la seguridad física de los centros de datos.',
-        complexity: 'Basic',
+        complexity: 'Basico',
         keyword: 'seguridad física'
     },
     {
@@ -117,7 +117,7 @@ export const questions: Question[] = [
         correctOptionIds: ['b'],
         domain: 'Seguridad, cumplimiento e identidad',
         explanation: 'Un Grupo de Seguridad de Red (NSG) contiene reglas de seguridad que permiten o deniegan el tráfico de red entrante o saliente.',
-        complexity: 'Advanced',
+        complexity: 'Avanzado',
         keyword: 'filtrar tráfico'
     },
     {
@@ -132,7 +132,7 @@ export const questions: Question[] = [
         correctOptionIds: ['b'],
         domain: 'Precios, SLA y soporte',
         explanation: 'Los costos varían según el tipo de recurso (VM, SQL, etc.), el uso y la región geográfica donde se despliega.',
-        complexity: 'Basic',
+        complexity: 'Basico',
         keyword: 'región'
     },
     {
@@ -147,7 +147,7 @@ export const questions: Question[] = [
         correctOptionIds: ['d'],
         domain: 'Precios, SLA y soporte',
         explanation: 'Los servicios gratuitos o en versión preliminar (Preview) generalmente no ofrecen un SLA garantizado financieramente.',
-        complexity: 'Intermediate',
+        complexity: 'Intermedio',
         keyword: 'servicios gratuitos'
     }
 ];
