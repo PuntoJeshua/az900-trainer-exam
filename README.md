@@ -48,7 +48,7 @@ Este sistema no es solo un simulador; es un **entrenador inteligente** que anali
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone https://github.com/tu-usuario/az900-trainer.git
+   git clone https://github.com/PuntoJeshua/az900-trainer.git
    cd az900-trainer
    ```
 
